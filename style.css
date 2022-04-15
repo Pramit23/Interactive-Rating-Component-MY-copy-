@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #141519;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  margin: 10rem auto;
+  max-width: 37.5rem;
+  min-height: 35rem;
+  /* Setup */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.icon-star {
+  padding: 1.5rem;
+  background-color: #262f38;
+  color: #79828b;
+  /* text-align: center; */
+  border-radius: 100%;
+  margin-bottom: 0.5rem;
+  box-shadow: 0px 1px 5px 5px rgba(0, 0, 0, 0.082);
+}
+
+.card {
+  max-width: 37.5rem;
+  height: auto;
+  background-image: linear-gradient(#212832, #181d27);
+  color: white;
+  /* border: 2px solid red; */
+  border-radius: 1rem;
+  padding: 2.5rem;
+}
+
+p {
+  margin-top: 1rem;
+  line-height: 1.5;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+}
+
+/* Number list */
+
+.div_numbers {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem auto;
+  /* border: 1px solid saddlebrown; */
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  max-width: 31.25rem;
+}
+
+.ul_numbers {
+  list-style: none;
+  padding: 10px;
+}
+
+.ul_numbers > .li_numbers {
+  display: inline;
+}
+
+.li_numbers {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  max-width: 5rem;
+}
+
+.numbers {
+  background-color: #262f38;
+  color: #79828b;
+  padding: 1rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  font-size: 400;
+  border-radius: 100%;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.671);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.numbers:hover {
+  color: white;
+  background-color: #fc7613;
+}
+
+/* Links */
+
+.card > .btn {
+  background-color: #fc7613;
+  color: white;
+  width: 100%;
+  height: auto;
+
+  border-radius: 50px;
+  border: none;
+
+  display: inline-block;
+
+  padding: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.25rem;
+
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0.2rem;
+
+  cursor: pointer;
+}
+
+.card > .btn:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Thank you */
+
+.thank-you-image {
+  display: flex;
+  justify-content: center;
+}
+
+.thank-you-badge {
+  padding: 1rem;
+  margin: 2rem auto;
+  border-radius: 5rem;
+  border: none;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  background-color: #262f38;
+  color: #fc7613;
+  max-width: 60%;
+}
+
+.thank-you {
+  margin-top: 0.85rem;
+  /* border: 1px solid red; */
+  padding: 1rem;
+}
+
+.thank-you-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.thank-you-desc {
+  text-align: center;
+  line-height: 1.8;
+}
+
+/* Attribution */
+
+.attribution {
+  font-size: 1rem;
+  text-align: center;
+  background-color: white;
+  padding: 1rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
